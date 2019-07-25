@@ -1,17 +1,18 @@
 body{
     color: brown;
     background-color: #333;
-    margin: 0;
+    background-image: url('bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    justify-content: center;
-    grid-gap: 20px;
+    grid-gap: 15px;
 }
 a{
     text-decoration: none;
-    color:violet;
+    color:rgb(0, 255, 136);
     font-size: 20px;
 }
 a:hover{
@@ -21,10 +22,9 @@ a:active{
     color: red;
 }
 img{
-    height: 300px;
-    width: 100px;
-    padding-top: 10px;
-    margin: 0px;
+    height: 250px;
+    width: 120px;
+    padding-top: 20px; 
 }
 nav{
     width: 100%;
@@ -45,12 +45,14 @@ nav ul li:hover{
 }
 nav ul li a{
     text-decoration: none;
-    color: lightskyblue;
+    color: violet;
     padding: 30px;
 }
 #dota{
-    width: 95px;
+    width: 100px;
     height: 75px;
+    padding-top: 10px;
+    text-align: left;
 }
 #line{
     text-decoration: none;
